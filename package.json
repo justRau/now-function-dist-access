@@ -1,0 +1,10 @@
+{
+    "name": "now-function-dist-access",
+    "version": "1.0.0",
+    "repository": "https://github.com/justRau/now-function-dist-access",
+    "author": "Justas Raudonius",
+    "license": "MIT",
+    "scripts": {
+        "now-build": "ls"
+    }
+}
