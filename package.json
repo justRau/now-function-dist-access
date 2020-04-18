@@ -5,6 +5,6 @@
     "author": "Justas Raudonius",
     "license": "MIT",
     "scripts": {
-        "now-build": "ls -algh; pwd;"
+        "now-build": "ls -algh; pwd; cp src/data.json dist/data.json"
     }
 }
