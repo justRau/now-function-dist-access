@@ -1,0 +1,12 @@
+{
+    "version": 2,
+    "public": false,
+    "functions": {
+        "api/index.js": {
+            "includeFiles": "{src,dist}/**/*"
+        }
+    },
+    "routes": [
+        { "src": "/", "dest": "api/index.js" }
+    ]
+}
