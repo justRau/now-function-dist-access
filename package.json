@@ -4,6 +4,10 @@
     "repository": "https://github.com/justRau/now-function-dist-access",
     "author": "Justas Raudonius",
     "license": "MIT",
+    "engines": {
+        "node": "10.x",
+        "npm": "6.7.0"
+    },
     "scripts": {
         "now-build": "ls -algh; pwd; ./node_modules/.bin/gulp"
     },
