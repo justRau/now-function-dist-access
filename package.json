@@ -9,7 +9,7 @@
         "npm": "6.7.0"
     },
     "scripts": {
-        "now-build": "ls -algh; pwd; ./node_modules/.bin/gulp"
+        "now-build": "ls -algh; pwd;"
     },
     "dependencies": {
         "gulp": "3"
