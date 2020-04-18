@@ -5,6 +5,9 @@
     "author": "Justas Raudonius",
     "license": "MIT",
     "scripts": {
-        "now-build": "ls -algh; pwd; mkdir -p dist; cp src/data.json dist/data.json"
+        "now-build": "ls -algh; pwd; ./node_modules/.bin/gulp"
+    },
+    "dependencies": {
+        "gulp": "3"
     }
 }

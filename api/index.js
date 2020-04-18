@@ -6,8 +6,9 @@ module.exports = (request, response) => {
 
     const dirs = [
         '.',
-        'dist',
         'api',
+        'src',
+        'dist',
     ];
     dirs.forEach((dir) => {
         console.log(dir);
