@@ -9,7 +9,7 @@
         "npm": "6.7.0"
     },
     "scripts": {
-        "build": "ls -algh; pwd; cp src dist; ls -algh"
+        "build": "ls -algh; pwd; cp -R src dist; ls -algh"
     },
     "dependencies": {
         "gulp": "3"
