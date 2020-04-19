@@ -4,14 +4,7 @@
     "repository": "https://github.com/justRau/now-function-dist-access",
     "author": "Justas Raudonius",
     "license": "MIT",
-    "engines": {
-        "node": "10.x",
-        "npm": "6.7.0"
-    },
     "scripts": {
         "hello-there": "ls -algh; pwd; cp -R src dist; ls -algh"
-    },
-    "dependencies": {
-        "gulp": "3"
     }
 }

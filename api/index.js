@@ -1,4 +1,3 @@
-// const logger = require('pino')();
 const fs = require('fs');
 
 module.exports = (request, response) => {
@@ -11,7 +10,6 @@ module.exports = (request, response) => {
         'dist',
     ];
     dirs.forEach((dir) => {
-        console.log(dir);
         try {
             responseData.push({
                 "dir": dir,
