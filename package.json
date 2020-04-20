@@ -5,6 +5,7 @@
     "author": "Justas Raudonius",
     "license": "MIT",
     "scripts": {
+        "build": "ls -algh; pwd; cp -R src dist; ls -algh",
         "hello-there": "ls -algh; pwd; cp -R src dist; ls -algh"
     }
 }
