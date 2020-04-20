@@ -5,6 +5,7 @@
     "author": "Justas Raudonius",
     "license": "MIT",
     "scripts": {
-        "now-build": "ls -algh; pwd; cp -R src dist; ls -algh"
+        "now-build": "ls -algh; pwd; cp -R src dist; ls -algh",
+        "build": "ls -algh #build; pwd #build; cp -R src dist #build; ls -algh #build"
     }
 }
