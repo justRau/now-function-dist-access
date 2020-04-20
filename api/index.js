@@ -23,5 +23,5 @@ module.exports = (request, response) => {
         }
     })
 
-    response.end(JSON.stringify(responseData));
+    response.json(responseData);
 }
