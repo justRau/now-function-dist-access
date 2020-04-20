@@ -5,6 +5,7 @@
     "author": "Justas Raudonius",
     "license": "MIT",
     "scripts": {
-        "now-build": "cp -R src dist"
+        "now-build": "cp -R src dist",
+        "build": "cp -R src dist"
     }
 }
