@@ -5,7 +5,6 @@
     "author": "Justas Raudonius",
     "license": "MIT",
     "scripts": {
-        "now-build": "echo 'doing nothing in now-build'",
-        "hello-there": "ls -algh; pwd; cp -R src dist; ls -algh"
+        "now-build": "ls -algh; pwd; cp -R src dist; ls -algh",
     }
 }
