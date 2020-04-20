@@ -8,6 +8,9 @@
     },
     "routes": [
         { "src": "/", "dest": "/api/index.js" },
+        { "src": "/data.json-src-alias", "dest": "/src/data.json" },
+        { "src": "/data.json-dist-alias", "dest": "/dist/data.json" },
+        { "src": "/data.json-root-alias", "dest": "/data.json" },
         { "src": "/(.*)", "dest": "/$1" }
     ]
 }
